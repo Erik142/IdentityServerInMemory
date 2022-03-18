@@ -75,6 +75,5 @@ namespace IdentityServerInMemory.User
             get;
             set;
         } = new HashSet<Claim>(new ClaimComparer());
-
     }
 }
