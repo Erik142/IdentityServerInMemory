@@ -22,7 +22,7 @@ namespace IdentityServerInMemory.User
             return _users.Any(u => u.Username == userName && u.Password == password && u.Company == companyName);
         }
 
-        public CompanyUser FindUserByUsername(string userName, string companyName)
+        public CompanyUser FindByUsername(string userName, string companyName)
         {
             if (string.IsNullOrWhiteSpace(userName) || string.IsNullOrWhiteSpace(companyName) || !_users.Any(u => u.Username == userName && u.Company == companyName))
             {

@@ -9,6 +9,8 @@ namespace IdentityServerHost.Quickstart.UI
     public class LoginInputModel
     {
         [Required]
+        public string CompanyName { get; set; }
+        [Required]
         public string Username { get; set; }
         [Required]
         public string Password { get; set; }
