@@ -24,7 +24,10 @@
 
                             <div class="form-group">
                                 <label asp-for="CompanyName"></label>
-                                <input class="form-control" placeholder="Company name" asp-for="CompanyName" autofocus>
+                                <br />
+                                <select asp-for=CompanyName asp-items=@(new SelectList(Model.LocalProviders))>
+                                    <option value="">--Select--</option>
+                                </select>
                             </div>
                             <div class="form-group">
                                 <label asp-for="Username"></label>

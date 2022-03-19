@@ -9,10 +9,13 @@ namespace IdentityServerHost.Quickstart.UI
     public class LoginInputModel
     {
         [Required]
+        [Display(Name = "Company name")]
         public string CompanyName { get; set; }
         [Required]
+        [Display(Name = "User name")]
         public string Username { get; set; }
         [Required]
+        [Display(Name = "Password")]
         public string Password { get; set; }
         public bool RememberLogin { get; set; }
         public string ReturnUrl { get; set; }

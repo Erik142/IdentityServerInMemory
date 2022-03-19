@@ -24,7 +24,7 @@ namespace IdentityServerInMemory.User
                 {
                     new CompanyUser
                     {
-                        SubjectId = "818727",
+                        SubjectId = "12345",
                         Username = "alice",
                         Password = "alice",
                         Company = "company1",
@@ -41,7 +41,7 @@ namespace IdentityServerInMemory.User
                     },
                     new CompanyUser
                     {
-                        SubjectId = "818727",
+                        SubjectId = "23456",
                         Username = "alice",
                         Password = "alice2",
                         Company = "company2",

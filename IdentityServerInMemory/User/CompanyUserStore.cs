@@ -31,5 +31,10 @@ namespace IdentityServerInMemory.User
 
             return _users.FirstOrDefault(u => u.Username == userName && u.Company == companyName);
         }
+
+        public IEnumerable<string> GetCompanyNames()
+        {
+            return _users.Select(u => u.Company).Distinct();
+        }
     }
 }
