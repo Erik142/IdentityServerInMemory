@@ -6,17 +6,22 @@ using System.Threading.Tasks;
 
 namespace IdentityServerCommon.Model
 {
+    /// <summary>
+    /// Data model for an authentication provider. This is what is being passed between the authentication provider and the identity server during authentication provider registration.
+    /// </summary>
     public class AuthProviderModel
     {
-        public string Name { get; private set; }
-        public string CallbackUrl { get; private set; }
-        public IEnumerable<AuthenticationMechanism> AuthenticationMechanisms { get; private set; }
-
-        public AuthProviderModel(string name, string callbackUrl, IEnumerable<AuthenticationMechanism> authenticationMechanisms)
-        {
-            Name = name;
-            CallbackUrl = callbackUrl;
-            AuthenticationMechanisms = authenticationMechanisms;
-        }
+        /// <summary>
+        /// The Authentication provider name, e.g. the company name
+        /// </summary>
+        public string Name { get;  set; }
+        /// <summary>
+        /// The callback URL for this authentication provider. Used to call API endpoints in the authentication provider
+        /// </summary>
+        public string CallbackUrl { get;  set; }
+        /// <summary>
+        /// The specific authentication mechanisms that this authentication provider supports
+        /// </summary>
+        public IEnumerable<AuthenticationMechanism> AuthenticationMechanisms { get;  set; }
     }
 }

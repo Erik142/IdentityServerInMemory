@@ -7,8 +7,14 @@ using System.Threading.Tasks;
 
 namespace IdentityServerCommon
 {
+    /// <summary>
+    /// A simple interface used to specify model classes that can be used as data classes to authenticate with a specific authentication mechanism
+    /// </summary>
     public interface IAuthenticatable
     {
+        /// <summary>
+        /// The authentication mechanism used for this authenticatable object
+        /// </summary>
         public AuthenticationMechanism AuthenticationMechanism { get; }
     }
 }

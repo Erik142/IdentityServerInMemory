@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace IdentityServerCommon.Model
 {
+    /// <summary>
+    /// An enum containing the supported authentication mechanisms
+    /// </summary>
     public enum AuthenticationMechanism
     {
         Unknown,
