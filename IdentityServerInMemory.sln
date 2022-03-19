@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServerInMemory", "I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServerCommon", "IdentityServerCommon\IdentityServerCommon.csproj", "{087D09CF-1FA4-4A7F-B72C-4F30F876B0F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company1Provider", "Company1Provider\Company1Provider.csproj", "{11B465B9-C249-483D-B8D9-D0B5D53DF1BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company2Provider", "Company2Provider\Company2Provider.csproj", "{6A46D7EA-62DB-450A-B222-22EF097B9BD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{087D09CF-1FA4-4A7F-B72C-4F30F876B0F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{087D09CF-1FA4-4A7F-B72C-4F30F876B0F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{087D09CF-1FA4-4A7F-B72C-4F30F876B0F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B465B9-C249-483D-B8D9-D0B5D53DF1BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B465B9-C249-483D-B8D9-D0B5D53DF1BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B465B9-C249-483D-B8D9-D0B5D53DF1BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B465B9-C249-483D-B8D9-D0B5D53DF1BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A46D7EA-62DB-450A-B222-22EF097B9BD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A46D7EA-62DB-450A-B222-22EF097B9BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A46D7EA-62DB-450A-B222-22EF097B9BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A46D7EA-62DB-450A-B222-22EF097B9BD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
