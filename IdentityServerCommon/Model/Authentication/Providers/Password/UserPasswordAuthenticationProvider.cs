@@ -18,7 +18,7 @@ namespace IdentityServerCommon.Model.AuthenticationProviders
         /// <summary>
         /// The user store (Storage backend)
         /// </summary>
-        public IUserStore UserStore { get; private set; }
+        private IUserStore UserStore { get; set; }
 
         /// <summary>
         /// Creates a new instance with the corresponding authentication provider model and storage backend
