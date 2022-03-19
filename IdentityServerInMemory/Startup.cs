@@ -4,6 +4,7 @@
 
 using IdentityServer4;
 using IdentityServerHost.Quickstart.UI;
+using IdentityServerInMemory.Authentication;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -26,6 +27,7 @@ namespace IdentityServerInMemory
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddSingleton<HttpUserStore>();
 
             var builder = services.AddIdentityServer(options =>
             {

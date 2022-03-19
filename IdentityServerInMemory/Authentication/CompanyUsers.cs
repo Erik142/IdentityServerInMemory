@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Security.Claims;
 using System.Text.Json;
 
-namespace IdentityServerInMemory.User
+namespace IdentityServerInMemory.Authentication
 {
     public class CompanyUsers
     {

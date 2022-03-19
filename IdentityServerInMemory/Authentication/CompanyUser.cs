@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Security.Claims;
 
-namespace IdentityServerInMemory.User
+namespace IdentityServerInMemory.Authentication
 {
     // Copy pasted from TestUser to prove that inheritance is not necessary
     public class CompanyUser
